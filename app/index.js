@@ -6,9 +6,24 @@ require('./index.css');
 // lifecycle event
 // UI <-- required
 
+const Test = () => <h2> hererer </h2>
+
 class App extends React.Component {
   render(){
-    return <h1> helloworld </h1>
+    return(
+      <div>
+        <h1> helloworld </h1>
+        <Test />
+        <style jsx> {`
+          
+          h1 {
+            font-size: 22px;
+          }
+
+        `}
+        </style>
+      </div>
+    ) 
   }
 }
 
