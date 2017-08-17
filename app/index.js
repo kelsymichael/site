@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-require('./index.css');
-require('!raw!stylus!./index.styl');
+require('./index.styl');
 
 // state
 // lifecycle event
